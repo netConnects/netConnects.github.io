@@ -163,6 +163,7 @@ a img{
     position: relative;
     background: #6ab344;
     height: 160px;
+    color:black;
   }
 
     .android-drawer .android-logo-image {
@@ -471,7 +472,7 @@ a img{
   }
 
   .android-title {
-    display: none !important;
+    color:black;
   }
 
   .android-mobile-title {
