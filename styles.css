@@ -17,7 +17,9 @@
 body {
   margin: 0;
 }
-
+ .android-title {
+    color:black;
+  }
 /* Disable ugly boxes around images in IE10 */
 a img{
   border: 0px;
@@ -171,13 +173,14 @@ a img{
       bottom: 16px;
     }
 
+
 .android-be-together-section {
-  position: relative;
-  height: 800px;
-  width: auto;
-  background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
-  background-size: cover;
+    position: relative;
+    height: 100%;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url(images/slide01.png) center 100% rebeccapurple no-repeat;
+    background-size: cover;
 }
 
 .logo-font {
@@ -195,6 +198,7 @@ a img{
 .android-sub-slogan {
   font-size: 21px;
   padding-top: 24px;
+color: white;
 }
 
 .android-create-character {
@@ -473,6 +477,8 @@ a img{
 
   .android-title {
     color:black;
+        width: 90%;
+    text-align: center;
   }
 
   .android-mobile-title {
@@ -504,7 +510,7 @@ a img{
   }
 
   .android-be-together-section {
-    height: 350px;
+    height: 100%;
   }
 
   .android-slogan {
@@ -517,6 +523,7 @@ a img{
     font-size: 16px;
     margin: 0 16px;
     padding-top: 8px;
+    color: white;
   }
 
   .android-create-character {
